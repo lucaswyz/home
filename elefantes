@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio()
+	{
+		const inteiro MAX_ELEFANTES = 100
+		inteiro cont = 1
+
+		 escreva("\n", cont, " elefantes incomodam muita gente.")
+		 cont = cont+1
+		 
+		 escreva("\n", cont, " elefantes incomodam muito mais.")
+		 cont = cont+1
+
+		 enquanto(cont < MAX_ELEFANTES){
+		   escreva("\n", cont, " elefantes incomodam muita gente.")
+		   cont = cont+1
+		 
+		   escreva("\n", cont, " elefantes incomodam muito mais.")
+		   cont = cont+1
+		 }
+	}
+}
