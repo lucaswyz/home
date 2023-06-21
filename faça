@@ -1,0 +1,31 @@
+programa
+{
+	
+inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		inteiro i
+		inteiro f
+
+		escreva("Informe um número inicial:")
+		leia(i)
+		escreva("Informe um número final:")
+		leia(f)
+		escreva(i)
+		faca
+		{
+		  se(i<f){
+		     u.aguarde(500)
+		  	i = i + 1
+		  	escreva("\n", i)
+		  }
+		  se(i>f){
+		     u.aguarde(500)
+		  	i = i - 1
+		  	escreva("\n", i)
+		  }
+		}
+		  enquanto ( i != f)
+	}
+}
+
